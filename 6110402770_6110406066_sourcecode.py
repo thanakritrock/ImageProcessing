@@ -622,11 +622,11 @@ class HelloWorldPanel(bpy.types.Panel):
         # Create a simple row.
         layout.label(text="Select Image Processing Version:")
         row = layout.row()
-        row.operator("node.change_viwer1",text="Version 1")
+        row.operator("node.change_viwer1",text="์Normal Processing")
         row = layout.row()
-        row.operator("node.change_viwer2",text="Version 2")
+        row.operator("node.change_viwer2",text="Low Bit Depth")
         row = layout.row()
-        row.operator("node.change_viwer3",text="Version 3")
+        row.operator("node.change_viwer3",text="High Shadow")
         row = layout.row()
 
 class Initiate_Program(bpy.types.Operator):
